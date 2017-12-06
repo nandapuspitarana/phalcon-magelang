@@ -11,8 +11,8 @@ return new \Phalcon\Config([
         'adapter'     => 'Mysql',
         'host'        => 'localhost',
         'username'    => 'root',
-        'password'    => '',
-        'dbname'      => 'test',
+        'password'    => '123',
+        'dbname'      => 'phalcon-magelang',
         'charset'     => 'utf8',
     ],
     'application' => [
@@ -31,6 +31,6 @@ return new \Phalcon\Config([
         'baseUri'        => preg_replace('/public([\/\\\\])index.php$/', '', $_SERVER["PHP_SELF"]),
     ],
     'settings' => [
-        'development' => TRUE,
+        'development' => FALSE,
     ]
 ]);

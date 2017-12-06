@@ -7,7 +7,9 @@
     <div class="wrapper">
         {%include "layouts/navbar.volt"%}
         {%include "layouts/sidebar.volt"%}
+        <div class="content-wrapper">
          {{ content() }}
+        </div>
       <!-- /.content-wrapper -->
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
